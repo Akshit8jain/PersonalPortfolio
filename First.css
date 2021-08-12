@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: red;
+        }
+        
+        .topnav a {
+          float: right;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: black;
+          color: white;
+        }
+        
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+        table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#main{
+	width : 100%;
+	height : 100%;
+	background-color :grey
+}
+#main div{
+			display: flex;
+			align-items : center;
+	        justify-content : center;
+}
+.ent{
+			display: flex;
+			align-items : center;
+	        justify-content : center;
+			flex-direction : column;
+}
+.entry{
+			display: flex;
+			align-items : left;
+	        justify-content : left ;
+			flex-direction : column;
+}
+.enty{
+			display: flex;
+			align-items : center;
+	        justify-content : center;
+			flex-direction ;
+}
+.enter{ 
+		display : flex;
+		flex-direction : column;  
+
+}
+.exp_sec{
+		padding : 40px;
+			
+			}
+.exp_block{
+			display : flex ;
+}			
+.exp_sec h2, .exp_block h3{
+				text-align : center;
+}
+.exp_sec1, .exp_sec2{
+						width : 50%;
+						padding : 20px;
+
+}
+.exp_content {
+				background-color : yellow;
+				padding : 20px;
+				border-top-left-radius : 25px;
+				border-bottom-left-radius : 25px;
+				
+}
+.radhe {
+	 overflow-y : scroll;
+}
